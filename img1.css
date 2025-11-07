@@ -1,0 +1,154 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    /* width: 100%;a */
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 120px;
+    width: 130px;
+    margin: 5px;
+    float: left;
+    margin-left: 20px;
+}
+
+body {
+    font-family: "Dosis", sans-serif;
+}
+
+.search-bar {
+    justify-content: flex-end;
+    display: flex;
+}
+
+.cart {
+    display: flex;
+    align-items: center;
+    margin: 0px 130px;
+}
+
+.cart h5 {
+    margin-right: 35px;
+}
+
+.search-bar input[type="text"] {
+    padding: 8px 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px 0 0 20px;
+    outline: none;
+    font-size: 16px;
+    width: 220px;
+    transition: border-color 0.2s;
+}
+
+.search-bar button {
+    padding: 8px 20px;
+    border: none;
+    background-color: #222;
+    color: #fff;
+    border-radius: 0 20px 20px 0;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.search-bar button:hover {
+    background-color: #444;
+}
+
+.favorite-btn {
+    padding: 8px 20px;
+    color: #090808;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+    cursor: pointer;
+    position: absolute;
+    transition: 0.2s;
+}
+
+.user-actions {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    color: #fff;
+    font-size: 5%;
+}
+
+.header-icon {
+    border: none;
+    background: none;
+    width: 33px;
+    height: 33px;
+    border-radius: 50%;
+    transition: 0.3s ease-in-out;
+    font-size: 20px;
+}
+
+.header-icon:hover {
+    background-color: #efefef;
+    cursor: pointer;
+}
+
+.favourite {
+    color: #ff0000 !important;
+}
+.tshirt {
+    position: absolute;
+    width: 500px;
+    height: 600px;
+    top: 150px;
+    left: 15%;
+}
+.txt {
+    position: absolute;
+    top: 170px;
+    left: 52%;
+    font-size: 25px;
+}
+.hed{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 10px 1px 5px;
+    color:rgb(41, 45, 53);
+}
+
+.des{
+    font-size: 20px;
+    color: grey;
+    margin: 5px 1px;
+}
+.price{
+    font-size: 20px;
+    font-weight: 400;
+    margin: 30px 1px;
+    color: black;
+    font-family: "Exo", sans-serif;
+    font-weight: 600;
+    font-size: 25px;    
+}
+.size-btn{
+    padding: 10px 20px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 5px;
+    transition: 0.2s;
+}
+.size-btn:hover {
+    background-color: #222;
+    color: white;
+}
+.sz{
+    margin-top: 40px;
+    font-size: 16px;
+}
